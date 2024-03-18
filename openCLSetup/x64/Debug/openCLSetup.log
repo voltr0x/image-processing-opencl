@@ -1,0 +1,241 @@
+﻿  main.cpp
+  opencl.hpp: CL_HPP_TARGET_OPENCL_VERSION is not defined. It will default to 300 (OpenCL 3.0)
+D:\Projects\openCLSetup\openCLSetup\main.cpp(20,32): error C2665: 'std::vector<cl::string,std::allocator<T>>::vector': no overloaded function could convert all the argument types
+D:\Projects\openCLSetup\openCLSetup\main.cpp(20,32): error C2665:         with
+D:\Projects\openCLSetup\openCLSetup\main.cpp(20,32): error C2665:         [
+D:\Projects\openCLSetup\openCLSetup\main.cpp(20,32): error C2665:             T=cl::string
+D:\Projects\openCLSetup\openCLSetup\main.cpp(20,32): error C2665:         ]
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(703,5):
+  could be 'std::vector<cl::string,std::allocator<T>>::vector(std::vector<cl::string,std::allocator<T>> &&,const std::allocator<T> &) noexcept(<expr>)'
+          with
+          [
+              T=cl::string
+          ]
+  	D:\Projects\openCLSetup\openCLSetup\main.cpp(20,32):
+  	'std::vector<cl::string,std::allocator<T>>::vector(std::vector<cl::string,std::allocator<T>> &&,const std::allocator<T> &) noexcept(<expr>)': cannot convert argument 1 from 'int' to 'std::vector<cl::string,std::allocator<T>> &&'
+          with
+          [
+              T=cl::string
+          ]
+  		D:\Projects\openCLSetup\openCLSetup\main.cpp(20,33):
+  		Reason: cannot convert from 'int' to 'std::vector<cl::string,std::allocator<T>>'
+          with
+          [
+              T=cl::string
+          ]
+  		D:\Projects\openCLSetup\openCLSetup\main.cpp(20,33):
+  		Constructor for class 'std::vector<cl::string,std::allocator<T>>' is declared 'explicit'
+          with
+          [
+              T=cl::string
+          ]
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(687,5):
+  or       'std::vector<cl::string,std::allocator<T>>::vector(const std::vector<cl::string,std::allocator<T>> &,const std::allocator<T> &)'
+          with
+          [
+              T=cl::string
+          ]
+  	D:\Projects\openCLSetup\openCLSetup\main.cpp(20,32):
+  	'std::vector<cl::string,std::allocator<T>>::vector(const std::vector<cl::string,std::allocator<T>> &,const std::allocator<T> &)': cannot convert argument 1 from 'int' to 'const std::vector<cl::string,std::allocator<T>> &'
+          with
+          [
+              T=cl::string
+          ]
+  		D:\Projects\openCLSetup\openCLSetup\main.cpp(20,33):
+  		Reason: cannot convert from 'int' to 'const std::vector<cl::string,std::allocator<T>>'
+          with
+          [
+              T=cl::string
+          ]
+  		D:\Projects\openCLSetup\openCLSetup\main.cpp(20,33):
+  		Constructor for class 'std::vector<cl::string,std::allocator<T>>' is declared 'explicit'
+          with
+          [
+              T=cl::string
+          ]
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(654,5):
+  or       'std::vector<cl::string,std::allocator<T>>::vector(std::initializer_list<_Ty>,const _Alloc &)'
+          with
+          [
+              T=cl::string,
+              _Ty=cl::string,
+              _Alloc=std::allocator<cl::string>
+          ]
+  	D:\Projects\openCLSetup\openCLSetup\main.cpp(20,32):
+  	'std::vector<cl::string,std::allocator<T>>::vector(std::initializer_list<_Ty>,const _Alloc &)': cannot convert argument 1 from 'int' to 'std::initializer_list<_Ty>'
+          with
+          [
+              T=cl::string,
+              _Ty=cl::string,
+              _Alloc=std::allocator<cl::string>
+          ]
+          and
+          [
+              _Ty=cl::string
+          ]
+  		D:\Projects\openCLSetup\openCLSetup\main.cpp(20,33):
+  		'std::initializer_list<_Ty>::initializer_list': no overloaded function could convert all the argument types
+          with
+          [
+              _Ty=cl::string
+          ]
+  			C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\initializer_list(51,1):
+  			could be 'std::initializer_list<_Ty>::initializer_list(std::initializer_list<_Ty> &&)'
+          with
+          [
+              _Ty=cl::string
+          ]
+  				D:\Projects\openCLSetup\openCLSetup\main.cpp(20,33):
+  				'std::initializer_list<_Ty>::initializer_list(std::initializer_list<_Ty> &&)': cannot convert argument 1 from 'int' to 'std::initializer_list<_Ty> &&'
+          with
+          [
+              _Ty=cl::string
+          ]
+  					D:\Projects\openCLSetup\openCLSetup\main.cpp(20,33):
+  					Reason: cannot convert from 'int' to 'std::initializer_list<_Ty>'
+          with
+          [
+              _Ty=cl::string
+          ]
+  					D:\Projects\openCLSetup\openCLSetup\main.cpp(20,33):
+  					Conversion requires a second user-defined-conversion operator or constructor
+  			C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\initializer_list(51,1):
+  			or       'std::initializer_list<_Ty>::initializer_list(const std::initializer_list<_Ty> &)'
+          with
+          [
+              _Ty=cl::string
+          ]
+  				D:\Projects\openCLSetup\openCLSetup\main.cpp(20,33):
+  				'std::initializer_list<_Ty>::initializer_list(const std::initializer_list<_Ty> &)': cannot convert argument 1 from 'int' to 'const std::initializer_list<_Ty> &'
+          with
+          [
+              _Ty=cl::string
+          ]
+  					D:\Projects\openCLSetup\openCLSetup\main.cpp(20,33):
+  					Reason: cannot convert from 'int' to 'const std::initializer_list<_Ty>'
+          with
+          [
+              _Ty=cl::string
+          ]
+  					D:\Projects\openCLSetup\openCLSetup\main.cpp(20,33):
+  					Conversion requires a second user-defined-conversion operator or constructor
+  			D:\Projects\openCLSetup\openCLSetup\main.cpp(20,33):
+  			while trying to match the argument list '(int)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(621,5):
+  or       'std::vector<cl::string,std::allocator<T>>::vector(const unsigned __int64,const _Ty &,const _Alloc &)'
+          with
+          [
+              T=cl::string,
+              _Ty=cl::string,
+              _Alloc=std::allocator<cl::string>
+          ]
+  	D:\Projects\openCLSetup\openCLSetup\main.cpp(20,32):
+  	'std::vector<cl::string,std::allocator<T>>::vector(const unsigned __int64,const _Ty &,const _Alloc &)': cannot convert argument 2 from 'std::pair<const _Elem *,unsigned __int64>' to 'const _Ty &'
+          with
+          [
+              T=cl::string,
+              _Ty=cl::string,
+              _Alloc=std::allocator<cl::string>
+          ]
+          and
+          [
+              _Elem=char
+          ]
+          and
+          [
+              _Ty=cl::string
+          ]
+  		D:\Projects\openCLSetup\openCLSetup\main.cpp(20,50):
+  		Reason: cannot convert from 'std::pair<const _Elem *,unsigned __int64>' to 'const _Ty'
+          with
+          [
+              _Elem=char
+          ]
+          and
+          [
+              _Ty=cl::string
+          ]
+  		D:\Projects\openCLSetup\openCLSetup\main.cpp(20,50):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(616,5):
+  or       'std::vector<cl::string,std::allocator<T>>::vector(const unsigned __int64,const _Alloc &)'
+          with
+          [
+              T=cl::string,
+              _Alloc=std::allocator<cl::string>
+          ]
+  	D:\Projects\openCLSetup\openCLSetup\main.cpp(20,32):
+  	'std::vector<cl::string,std::allocator<T>>::vector(const unsigned __int64,const _Alloc &)': cannot convert argument 2 from 'std::pair<const _Elem *,unsigned __int64>' to 'const _Alloc &'
+          with
+          [
+              T=cl::string,
+              _Alloc=std::allocator<cl::string>
+          ]
+          and
+          [
+              _Elem=char
+          ]
+          and
+          [
+              _Alloc=std::allocator<cl::string>
+          ]
+  		D:\Projects\openCLSetup\openCLSetup\main.cpp(20,50):
+  		Reason: cannot convert from 'std::pair<const _Elem *,unsigned __int64>' to 'const _Alloc'
+          with
+          [
+              _Elem=char
+          ]
+          and
+          [
+              _Alloc=std::allocator<cl::string>
+          ]
+  		D:\Projects\openCLSetup\openCLSetup\main.cpp(20,50):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(627,5):
+  or       'std::vector<cl::string,std::allocator<T>>::vector(_Iter,_Iter,const _Alloc &)'
+          with
+          [
+              T=cl::string,
+              _Alloc=std::allocator<cl::string>
+          ]
+  	D:\Projects\openCLSetup\openCLSetup\main.cpp(20,32):
+  	'std::vector<cl::string,std::allocator<T>>::vector(_Iter,_Iter,const _Alloc &)': template parameter '_Iter' is ambiguous
+          with
+          [
+              T=cl::string,
+              _Alloc=std::allocator<cl::string>
+          ]
+  		D:\Projects\openCLSetup\openCLSetup\main.cpp(20,32):
+  		could be 'std::pair<const _Elem *,unsigned __int64>'
+          with
+          [
+              _Elem=char
+          ]
+  		D:\Projects\openCLSetup\openCLSetup\main.cpp(20,32):
+  		or       'int'
+  	D:\Projects\openCLSetup\openCLSetup\main.cpp(20,32):
+  	'std::vector<cl::string,std::allocator<T>>::vector(_Iter,_Iter,const _Alloc &)': could not deduce template argument for '_Iter' from 'std::pair<const _Elem *,unsigned __int64>'
+          with
+          [
+              T=cl::string,
+              _Alloc=std::allocator<cl::string>
+          ]
+          and
+          [
+              _Elem=char
+          ]
+  D:\Projects\openCLSetup\openCLSetup\main.cpp(20,32):
+  while trying to match the argument list '(int, std::pair<const _Elem *,unsigned __int64>)'
+          with
+          [
+              _Elem=char
+          ]
+  
+D:\Projects\openCLSetup\openCLSetup\main.cpp(27,22): error C2039: 'Error': is not a member of 'cl'
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include\CL\cl.hpp(701,11):
+  see declaration of 'cl'
+  
+D:\Projects\openCLSetup\openCLSetup\main.cpp(27,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Projects\openCLSetup\openCLSetup\main.cpp(27,27): error C2143: syntax error: missing ',' before '&'
+D:\Projects\openCLSetup\openCLSetup\main.cpp(29,15): error C2065: 'e': undeclared identifier
+D:\Projects\openCLSetup\openCLSetup\main.cpp(106,25): error C3861: 'getDefaultDevice': identifier not found

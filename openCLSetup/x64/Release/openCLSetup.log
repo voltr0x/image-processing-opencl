@@ -1,0 +1,6 @@
+﻿  main.cpp
+  opencl.hpp: CL_HPP_TARGET_OPENCL_VERSION is not defined. It will default to 300 (OpenCL 3.0)
+main.obj : error LNK2001: unresolved external symbol clReleaseCommandQueue
+main.obj : error LNK2001: unresolved external symbol clReleaseContext
+main.obj : error LNK2001: unresolved external symbol clReleaseDevice
+D:\Projects\openCLSetup\x64\Release\openCLSetup.exe : fatal error LNK1120: 3 unresolved externals
